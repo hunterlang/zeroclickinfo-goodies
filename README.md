@@ -241,7 +241,7 @@ The files themselves go in the **/share/goodie/** directory.
 
 There are a couple more sections on advanced handle techniques depending on [Plugin type](http://duckduckhack.com/#plugin-types):
 
-* For **Goodies**, check out the [Advanced Goodies](http://duckduckhack.com/#advanced-goodies) section.
+* For **Goodies**, check out the [Advanced Goodies](#advanced-goodies) section.
 * For **Spice**, check out the [Advanced Spice handlers](http://duckduckhack.com/#advanced-spice-handlers) section.
 
 ## Advanced Goodies
@@ -253,7 +253,7 @@ These advanced handle techniques are specific to Goodie plugins:
 return $text, html => $html
 ```
 
-**Other zci keywords**. &nbsp;The Chars example set the **is_cached** zci keyword. You can find other settable attributes in the [object documentation](https://metacpan.org/module/WWW::DuckDuckGo::ZeroClickInfo). For example, the [GoldenRatio Goodie](https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/GoldenRatio.pm) sets the **answer_type** variable, which gets returned in the API.
+**Other zci keywords**. &nbsp;The Chars example sets the **is_cached** zci keyword. You can find other settable attributes in the [object documentation](https://metacpan.org/module/WWW::DuckDuckGo::ZeroClickInfo). For example, the [GoldenRatio Goodie](https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/GoldenRatio.pm) sets the **answer_type** variable, which gets returned in the API.
 
 ```perl
 zci answer_type => "golden_ratio";
