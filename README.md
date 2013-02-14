@@ -180,7 +180,7 @@ If you want to see some test cases where these types are enumerated check out ou
 triggers query_lc => qr/cost of living/;
 ```
 
- * Use single word queries and then further qualify the query within the handle function as explained in the [Advanced handle functions](http://duckduckhack.com/#advanced-handle-functions) section.
+ * Use single word queries and then further qualify the query within the handle function as explained in the [Advanced handle functions](#advanced-handle-functions) section.
 
 ## Advanced Handle Functions
 
@@ -239,7 +239,7 @@ The files themselves go in the **/share/goodie/** directory.
 **Generating data files.** You may also need to generate data files. If you do so, please also include the generation scripts. These do not have to be done in Perl, and you can also put them within the **/share/goodie/** directory. For example, the [CurrencyIn Goodie](https://github.com/duckduckgo/zeroclickinfo-goodies/tree/master/share/goodie/currency_in) uses a Python script to generate the input data.
 
 
-There are a couple more sections on advanced handle techniques depending on [Plugin type](http://duckduckhack.com/#plugin-types):
+There are a couple more sections on advanced handle techniques depending on [Plugin type](https://github.com/duckduckgo/duckduckgo/blob/master/README.md#overview):
 
 * For **Goodies**, check out the [Advanced Goodies](#advanced-goodies) section.
 * For **Spice**, check out the [Advanced Spice handlers](http://duckduckhack.com/#advanced-spice-handlers) section.
