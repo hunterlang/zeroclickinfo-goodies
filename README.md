@@ -1,7 +1,8 @@
 DuckDuckHack Goodies
 ====
 This documentation walks you through the process of writing a DuckDuckHack Goodie plugin.
-Before reading this section, make sure you've read the [DuckDuckHack Overview](https://github.com/duckduckgo/duckduckgo/blob/master/README.md) (so you know what we're talking about).
+Before reading this section, make sure you've read the [DuckDuckHack Intro Site](http://duckduckhack.com) and the [DuckDuckHack Developer's Overview](https://github.com/duckduckgo/duckduckgo/blob/master/README.md) (so you know what we're talking about).
+
 ## Basic Tutorial
 
 In this tutorial, we'll be making a Goodie plugin that checks the number of characters in a given search query. The end result will look [like this](https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Chars.pm) and works [like this](https://duckduckgo.com/?q=chars+How+many+characters+are+in+this+sentence%3F). The same framework is used to trigger Spice plugins.
